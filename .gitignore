@@ -1,0 +1,63 @@
+# Gradle files
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Local configuration file
+local.properties
+
+# IntelliJ IDEA
+*.iml
+.idea/
+*.iws
+
+# Android Studio
+.cxx/
+.externalNativeBuild/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Kotlin
+*.class
+*.log
+*.jar
+
+# Signing
+*.jks
+*.keystore
+keystore/notex-release.jks
+
+# Keep keystore.properties template but ignore local changes
+!keystore/keystore.properties
+
+# Mac
+.DS_Store
+
+# Test outputs
+.kotlin/
+/captures
+
+# NDK
+obj/
+
+# IntelliJ
+out/
+
+# User-specific configurations
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/shelf/
+
+# Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Room schema exports
+app/schemas/

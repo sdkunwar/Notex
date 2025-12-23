@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Letter N - Monochrome version for themed icons -->
+    <group>
+        <!-- Left vertical bar -->
+        <path
+            android:pathData="M36,32L36,76L44,76L44,32Z"
+            android:fillColor="#000000"/>
+
+        <!-- Diagonal connector -->
+        <path
+            android:pathData="M36,32L44,32L72,76L64,76Z"
+            android:fillColor="#000000"/>
+
+        <!-- Right vertical bar -->
+        <path
+            android:pathData="M64,32L64,76L72,76L72,32Z"
+            android:fillColor="#000000"/>
+    </group>
+</vector>

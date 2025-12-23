@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background gradient circle -->
+    <group>
+        <clip-path android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+
+        <!-- Gradient background using layered shapes -->
+        <path
+            android:pathData="M14,14h80v80h-80z"
+            android:fillColor="#6366F1"/>
+
+        <!-- Gradient overlay for depth -->
+        <path
+            android:pathData="M14,14L94,14L94,54L14,94z"
+            android:fillColor="#818CF8"
+            android:fillAlpha="0.4"/>
+    </group>
+
+    <!-- Letter N - Modern geometric design -->
+    <group>
+        <!-- Left vertical bar -->
+        <path
+            android:pathData="M36,32L36,76L44,76L44,32Z"
+            android:fillColor="#FFFFFF"/>
+
+        <!-- Diagonal connector -->
+        <path
+            android:pathData="M36,32L44,32L72,76L64,76Z"
+            android:fillColor="#FFFFFF"/>
+
+        <!-- Right vertical bar -->
+        <path
+            android:pathData="M64,32L64,76L72,76L72,32Z"
+            android:fillColor="#FFFFFF"/>
+    </group>
+
+    <!-- Subtle highlight accent -->
+    <path
+        android:pathData="M36,32L44,32L44,40L36,40Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"/>
+</vector>
